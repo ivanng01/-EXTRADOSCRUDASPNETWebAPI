@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J/wYW/ZlioTawDl+C6M05vM0d84KESLx3SMDMNJ4ouIvnawh4D34wfb7a+d18lVEJZrzIIEa7II9ho8fybVZPg==",
+  "dgSpecHash": "kg3wxozJfat0yJUiqpLMb6/11YCeST5sQPAL6VtexUmge5Ol6nfmKnzGtBdRhLYKPQwloQfykYWW/Xn36I6JcQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\IVAN GONZALEZ\\source\\repos\\EjApi\\EjApi\\EjApi.csproj",
   "expectedPackageFiles": [
@@ -68,7 +68,6 @@
     "C:\\Users\\IVAN GONZALEZ\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\IVAN GONZALEZ\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\IVAN GONZALEZ\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\IVAN GONZALEZ\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\IVAN GONZALEZ\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
     "C:\\Users\\IVAN GONZALEZ\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
     "C:\\Users\\IVAN GONZALEZ\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",

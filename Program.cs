@@ -13,6 +13,12 @@ using EjApi.Security;
 using Microsoft.Extensions.Configuration;
 using Configuration;
 using static Org.BouncyCastle.Math.EC.ECCurve;
+using AccessData.Interface;
+using AccessData.Repository;
+using Service.BookService;
+using Service.Interface;
+using Service.RentBookService;
+using Service.RoleService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +29,12 @@ builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IBookService, BookService>();
+builder.Services.AddScoped<IRentBookRepository, RentBookRepository>();
+builder.Services.AddScoped<IRentBookService, RentBookService>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+builder.Services.AddScoped<IRoleService, RoleService>();
 builder.Services.Configure<BDConfiguration>(builder.Configuration.GetSection("connectionDb"));
 builder.Services.Configure<JwtConfiguration>(builder.Configuration.GetSection("JwtSettings"));
 
